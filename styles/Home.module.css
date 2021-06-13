@@ -1,0 +1,51 @@
+.form {
+  width: 100%;
+  max-width: 32rem;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.row {
+  flex-direction: row;
+}
+
+.label {
+  margin-bottom: 1rem;
+}
+
+.label > span {
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+}
+
+.label > input,
+.label > select {
+  padding: 0.5rem;
+  font-size: 1.25rem;
+  border-radius: 6px;
+}
+
+button.cta {
+  background-color: rgb(3, 128, 135);
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1.25rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.error{
+  margin-top: -1rem;
+  margin-bottom: 1rem;
+  color: red
+}
